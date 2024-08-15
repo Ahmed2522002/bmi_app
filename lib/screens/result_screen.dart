@@ -19,7 +19,7 @@ class ResultScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
+resizeToAvoidBottomInset: true,
       backgroundColor: const Color(0xffd1d9e6),
 
       body: Padding(
